@@ -9,7 +9,8 @@ public class PointInGivenArea {
         x = Integer.parseInt(xStr);
         y = Integer.parseInt(yStr);
 
-        result = ((-4 <= x) && (x <= 4) && (-3 <= y) && (y <= 0)) || ((-2 <= x) && (x <= 2) && (0 <= y) && (y <=4));
+        result = ((-4 <= x) && (x <= 4) && (-3 <= y) && (y <= 0))
+                            || ((-2 <= x) && (x <= 2) && (0 <= y) && (y <=4));
 
         return result;
     }
